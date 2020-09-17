@@ -102,18 +102,43 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Resume</h2>
-          <span className="image main">
+          {/* <span className="image main">
             <img src={pic03} alt="" />
-          </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          </span> */}
+          <h3>Skills</h3>
+          <ul className="icons">
+            <li>AWS Certified</li>
+            
+            <li>Javascript, Node, React</li>
+            
+            <li>Jenkins, Ansible, Docker, Kubernetes</li>
+              {/* <a href="#" className="icon fa-twitter"></a> */}
+            
+          </ul>
+          <hr></hr>
+
+          <h3>Experience</h3>
+          <h4>Application Development Associate</h4>
+          <h5>Accenture</h5>
+          <h6>Feb 2020 - Present</h6>
+          <ul>
+            <li>Perform software development, operations and maintenance tasks in support of 15+ applications</li>
+            <li>Maintain, script and improve automated deployment systems</li>
+            {/* <li>Perform configuration changes</li> */}
+            <li>Manage, deploy, and configure 7 applications in private cloud</li>
+            <li>Script deliverables instructing team on application deployments and configuration updates</li>
+          </ul>
+
+          <hr></hr>
+
+          <h4>Web Development Teaching Assistant</h4>
+          <h5>Trilogy</h5>
+          <h6>Nov 2019 - Feb 2020</h6>
+          <ul>
+            <li>Lead classroom discussions, guided inquiry, emphasized the meta-skills and core concepts of software engineering</li>
+            <li>Supported students in their projects, challenges, and understanding of the curriculum</li>
+            <li>Provided feedback to students and fellow instructional staff in order to ensure the most effective and informative class sessions</li>
+          </ul>
           {close}
         </article>
 
