@@ -2,6 +2,8 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
+import ment from '../images/ment.png'
+import buyblack from '../images/buy-black.png'
 import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
@@ -58,16 +60,37 @@ class Main extends React.Component {
         >
           <h2 className="major">Projects</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <a href="https://www.buyblack.guru/">
+            <img src={buyblack} alt="Asset map of black owned restaurants" />
+            </a>
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            An asset map designed to help users find black-owned restaurants in Atlanta
+            and filter them by price, cuisine and location.
           </p>
+          <a href="https://github.com/erinborders/atlanta-black-businesses">
+            <button>Github</button>
+          </a>
+          
 
           <hr></hr>
+
+          <span className="image main">
+            <a href="https://ment.herokuapp.com">
+            <img src={ment} alt="Web app with career information" />
+            </a>
+          </span>
+          <p>
+            A web application designed to help users determine a career path
+            by listing the skills and education required for each career, as well
+            as local job centers and potential mentors to reach out to or learn from.
+          </p>
+          
+          <a href="https://github.com/erinborders/ment">
+            <button>Github</button>
+          </a>
+
+          {/* <hr></hr>
 
           <span className="image main">
             <img src={pic02} alt="" />
@@ -77,19 +100,7 @@ class Main extends React.Component {
             at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
             urna nisi, fringila lorem et vehicula lacinia quam. Integer
             sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-
-          <hr></hr>
-
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
+          </p> */}
           
           {close}
         </article>
