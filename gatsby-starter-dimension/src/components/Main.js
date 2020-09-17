@@ -31,9 +31,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About Me</h2>
-          <span className="image main">
+          {/* <span className="image main">
             <img src={pic01} alt="" />
-          </span>
+          </span> */}
           <p>
             By day a DevOps Engineer, by night a civic hacker with a mind 
             for change. I create web applications to support organizations 
@@ -161,7 +161,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form method="post" action="https://getform.io/f/07d8079c-5575-4711-8389-f3dd4a552850">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
