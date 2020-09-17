@@ -150,6 +150,14 @@ class Main extends React.Component {
             <li>Supported students in their projects, challenges, and understanding of the curriculum</li>
             <li>Provided feedback to students and fellow instructional staff in order to ensure the most effective and informative class sessions</li>
           </ul>
+
+          <hr></hr>
+
+          <h4>Education</h4>
+          <ul>
+            <li>General Assembly, May - Aug 2019</li>
+            <li>Washington University in St. Louis, Aug 2013 - May 2017 </li>
+          </ul>
           {close}
         </article>
 
