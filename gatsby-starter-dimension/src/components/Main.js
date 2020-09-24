@@ -66,7 +66,7 @@ class Main extends React.Component {
           </span>
           <p>
             An asset map that uses the Mapbox API to help users find black-owned restaurants in Atlanta
-            and filter them by price, cuisine and location.
+            and filter them by price, cuisine and location. Allows users to submit new restaurants as well.
           </p>
           <a href="https://github.com/erinborders/atlanta-black-businesses">
             <button>Github</button>
